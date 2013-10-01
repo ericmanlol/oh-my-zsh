@@ -87,8 +87,7 @@ function git_time_since_commit() {
 
 #PROMPT='%{$fg[yellow]%}λ %m %{$fg[green]%}%c %{$fg[yellow]%}→ $(git_prompt_info)%{$reset_color%}'
 
-PROMPT='
-%{$fg[magenta]%}┌┼─┼─ %n%{$fg_bold[black]%} @%{$reset_color%} %{$fg[cyan]%}%m %{$fg[magenta]%}─┤├─%{$fg[white]%}%t%{$fg[magenta]%} - %{$fg[white]%}%W%{$fg[magenta]%}─┤├─ %{$fg[yellow]%}%~ %{$fg[magenta]%}─┤$(git_prompt_info)%{$fg[magenta]%}%{$fg[magenta]%}%{$reset_color%}
+PROMPT='%{$fg[magenta]%}┌┼─┼─ %n%{$fg_bold[black]%} @%{$reset_color%} %{$fg[cyan]%}%m %{$fg[magenta]%}─┤├─%{$fg[white]%}%t%{$fg[magenta]%} - %{$fg[white]%}%W%{$fg[magenta]%}─┤├─ %{$fg[yellow]%}%~ %{$fg[magenta]%}─┤$(git_prompt_info)%{$fg[magenta]%}%{$fg[magenta]%}%{$reset_color%}
 %{$fg[magenta]%}└┼─%{$fg_bold[black]%}✭%{$fg[magenta]%}─┤▶ %{$reset_color%}'
 
 
