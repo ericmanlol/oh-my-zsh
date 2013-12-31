@@ -1,5 +1,6 @@
 Forked oh-my-zsh; em. Added my woo theme
 
+Here: https://github.com/ericmanlol/oh-my-zsh/blob/master/themes/woo.zsh-theme
 
 !https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png!
 
