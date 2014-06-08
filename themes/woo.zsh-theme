@@ -87,9 +87,12 @@ function git_time_since_commit() {
 
 #PROMPT='%{$fg[yellow]%}λ %m %{$fg[green]%}%c %{$fg[yellow]%}→ $(git_prompt_info)%{$reset_color%}'
 
-PROMPT='%{$fg[magenta]%}┌┼─┼─ %n%{$fg_bold[black]%} @%{$reset_color%} %{$fg[cyan]%}%m %{$fg[magenta]%}─┤├─%{$fg[white]%}%t%{$fg[magenta]%} - %{$fg[white]%}%W%{$fg[magenta]%}─┤├─ %{$fg[yellow]%}%~ %{$fg[magenta]%}─┤$(git_prompt_info)%{$fg[magenta]%}%{$fg[magenta]%}%{$reset_color%}
-%{$fg[magenta]%}└┼─%{$fg_bold[black]%}✭%{$fg[magenta]%}─┤▶ %{$reset_color%}'
+# PROMPT='%{$fg[magenta]%}┌┼─┼─ %n%{$fg_bold[black]%} @%{$reset_color%} %{$fg[cyan]%}%m %{$fg[magenta]%}─┤├─%{$fg[white]%}%t%{$fg[magenta]%} - %{$fg[white]%}%W%{$fg[magenta]%}─┤├─ %{$fg[yellow]%}%~ %{$fg[magenta]%}─┤$(git_prompt_info)%{$fg[magenta]%}%{$fg[magenta]%}%{$reset_color%}
+# %{$fg[magenta]%}└┼─%{$fg_bold[black]%}✭%{$fg[magenta]%}─┤▶ %{$reset_color%}'
 
+
+PROMPT='%{$fg[magenta]%}┌┼─┼─ %n%{$fg_bold[black]%} @%{$reset_color%} %{$fg[cyan]%}%m %{$fg[magenta]%}─┤├─ %{$fg[yellow]%}%~ %{$fg[magenta]%}─┤$(git_prompt_info)%{$fg[magenta]%}%{$fg[magenta]%}%{$reset_color%}
+%{$fg[magenta]%}└┼─%{$fg_bold[black]%}✭%{$fg[magenta]%}─┤▶ %{$reset_color%}'
 
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[magenta]%}├─%{$fg[cyan]%}λ%{$fg[blue]%}%{$fg[magenta]%}─┤%{$reset_color%} $(git_prompt_short_sha) %{$fg[red]%}"
